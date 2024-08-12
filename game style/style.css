@@ -60,6 +60,7 @@ p{
     cursor: pointer;
     border-radius: 4.8rem;
     border: none;
+    text-transform: uppercase;
 }
 
 /* navbar section design start here  */
@@ -304,3 +305,40 @@ p{
     margin-top: 2rem;
 }
 /* online play section design end here */
+
+/* careers section design start here */
+.careers{
+    background: var(--main-color);
+    margin: 15rem auto 10rem;
+    background-image: url(../images/Group\ 65.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.careers-content{
+    padding: 10rem 0;
+    width: 50%;
+    max-width: 70rem; 
+}
+.careers-content h3 ,p{
+    color: var(--white-color);
+    margin-bottom: 2rem;
+}
+.careers-data{
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+    
+}
+.careers-sub > ul > li{
+    color: var(--white-color);
+}
+.careers-sub-data-2{
+    text-align: right;
+    margin-left: 10rem;
+}
+.careers-content .btn{
+    background: var(--white-color);
+    color: var(--main-color);
+    text-transform: uppercase    ;
+}
+/* careers section design end here */
