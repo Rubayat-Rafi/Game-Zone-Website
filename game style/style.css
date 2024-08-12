@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: var(--white-color);
+}
+:root{
+    --white-color: rgba(255, 255, 255, 1);
+    --main-color:rgb(255, 66, 165);
+    --anchor-link-color:rgba(60, 53, 79, 1);
+    --text-color: rgba(11, 2, 35, 1);
+}
+.container{
+    max-width: 1440px;
+    width: 90%; 
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.logo-color{
+    color:var(--main-color);
+}
+
+/* navbar section design start here  */
+.nav-body{
+    background: var(--white-color);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo h2{
+    color: var(--text-color);
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: auto;
+    margin-left: 2rem;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+}
+.navlist > a{
+    font-size: 1.8rem;
+    line-height: auto;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    color: var(--anchor-link-color);
+    cursor: pointer;
+}
+.follow-us{
+    display: flex;
+    align-items: center;
+    background: rgba(11, 2, 35, 0.1);
+    border-radius: 8px;
+    margin-left: 3.5rem;
+    padding: 1.2rem 2rem;
+}
+.follow-us a{
+    font-size: 1.8rem;
+    line-height: auto;
+    font-weight: 500;
+    color: var(--anchor-link-color);
+    cursor: pointer;
+}
+.follow-us img{
+    margin-left: 1.5rem;
+    height: 3rem;
+    width: auto;
+    cursor: pointer;
+}
+/* navbar section design end here  */
