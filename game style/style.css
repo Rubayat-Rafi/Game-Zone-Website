@@ -34,6 +34,11 @@ body{
     background-clip: text;
     color: transparent;
 }
+.head-color{ 
+    background: linear-gradient(90.00deg, rgba(249, 72, 178, 1)50%,  rgba(135, 88, 241, 1)100%);
+    background-clip: text;
+    color: transparent;
+}
 h3{
     font-size: 4.8rem;
     font-weight: bold;
@@ -196,3 +201,106 @@ p{
     font-weight: 500;
 }
 /* gamers section design end here */
+
+/* funny videos section esign start here */
+.videos{
+    margin: 10rem auto;
+}
+.videos-content{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.videos-content > h3 {
+    margin-bottom: 1rem;
+}
+.videos-cards-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.videos-cards > p{
+    text-align:left;
+    padding: 2rem 1rem;
+}
+
+.watch-now{
+    position: relative;
+}
+.watch-now::before{
+    content: '';
+    position: absolute;
+    top: 0.4rem;
+    left: 1.3rem;
+    width: 92.7%;
+    height: 97%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    border-radius: 1.6rem;
+}
+.overflow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.overflow-play{
+    color: rgba(255, 255, 255, 1);
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+}
+.overflow > h5{
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* funny videos section esign end here */
+
+/* play instantly section design start here */
+    .play-instant{
+        display: flex;
+        align-items: center;
+        text-align: end;
+    }
+    .play-instant-content{
+        width: 40%;
+    }
+    .play-instant-content > h3{
+        margin-bottom: 2rem;
+    }
+    .play-instant-images{
+        width: 60%;
+        position: relative;
+    }
+    .play-instant-sub-img{
+        position: absolute;
+        left: 10rem;
+        top: 35rem;
+    }
+/* play instantly section design end here */
+
+/* online play section design start here */
+.online-play{
+    margin: 15rem auto 10rem;
+    display: flex;
+    align-items: center;
+}
+.online-play-images{
+    width: 65%;
+    position: relative;
+}
+.online-play-sub-img{
+    position: absolute;
+    right: 10rem;
+    bottom: -10rem;
+}
+.online-play-content{
+    width: 35%;
+}
+.online-play-content > p{
+    margin-top: 2rem;
+}
+/* online play section design end here */
