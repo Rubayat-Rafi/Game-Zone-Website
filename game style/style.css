@@ -24,7 +24,7 @@ body{
     max-width: 1440px;
     width: 90%; 
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .logo-color{
     color:var(--main-color);
@@ -309,7 +309,7 @@ p{
 /* careers section design start here */
 .careers{
     background: var(--main-color);
-    margin: 15rem auto 10rem;
+    margin: 15rem auto 0rem;
     background-image: url(../images/Group\ 65.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -319,7 +319,7 @@ p{
     width: 50%;
     max-width: 70rem; 
 }
-.careers-content h3 ,p{
+.careers-content h3 ,.careers-content p{
     color: var(--white-color);
     margin-bottom: 2rem;
 }
@@ -339,6 +339,100 @@ p{
 .careers-content .btn{
     background: var(--white-color);
     color: var(--main-color);
-    text-transform: uppercase    ;
+    text-transform: uppercase;
 }
 /* careers section design end here */
+
+ /* games card section design start here */
+ .games-container{
+    padding: 10rem 0;
+ }
+ .games-cards-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+ }
+ .row-2{
+    grid-template-columns: 1fr;
+ }
+
+ .games-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    background: var(--white-color);
+ }
+ .games-card img{
+    width: 6rem;
+    height: 6rem;
+ }
+  .games-card h4{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+  }
+ /* games card section design end here */
+
+ /* footer design start here  */
+ footer{
+    background: var(--text-color);
+    padding: 10rem 0;
+    text-align: center;
+ }
+ .f-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+ }
+ .f-logo > h2{
+    color: var(--white-color);
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: auto;
+    margin-left: 2rem;
+ }
+ .f-navlist a{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--white-color);
+    margin-left: 6rem;
+    cursor: pointer;
+ }
+ .f-navlist a:hover{
+    color: var(--main-color);
+ }
+ .f-social-media{
+    margin: 5rem auto;
+ }
+ .f-social-media > i{
+    color: var(--white-color);
+    font-size: 4rem;
+    margin-left: 4rem;
+    cursor: pointer;
+ }
+ .f-social-media > i:hover{
+    color: var(--main-color);
+ }
+ .terms{
+    margin-bottom: 3rem;
+ }
+ .terms a{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 6rem;
+    cursor: pointer;
+    line-height: normal;
+ }
+ small{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+
+    cursor: pointer;
+    line-height: normal;
+ }
+ /* footer design end here  */ 
